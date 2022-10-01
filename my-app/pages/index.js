@@ -1,8 +1,8 @@
-import { Contract, providers, utils } from "ethers";
+import {Contract, providers, utils} from "ethers";
 import Head from "next/head";
-import React, { useEffect, useRef, useState } from "react";
+import React, {useEffect, useRef, useState} from "react";
 import Web3Modal from "web3modal";
-import { abi, NFT_CONTRACT_ADDRESS } from "../constants";
+import {abi, NFT_CONTRACT_ADDRESS} from "../constants";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -237,8 +237,7 @@ export default function Home() {
     }
 
     if (needSigner) {
-      const signer = web3Provider.getSigner();
-      return signer;
+      return web3Provider.getSigner();
     }
     return web3Provider;
   };
@@ -359,12 +358,15 @@ export default function Home() {
             Its an NFT collection for developers in Crypto.
           </div>
           <div className={styles.description}>
+            Made by Kaysar, Nurtileu and Dosymzhan. CS-2005
+          </div>
+          <div className={styles.description}>
             {tokenIdsMinted}/20 have been minted
           </div>
           {renderButton()}
         </div>
         <div>
-          <img className={styles.image} src="./cryptodevs/0.svg" />
+          <img className={styles.image} src="./cryptodevs/0.svg"  alt={"Zeroth NFT"}/>
         </div>
       </div>
 
