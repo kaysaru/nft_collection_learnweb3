@@ -1,0 +1,27 @@
+.idea
+
+hardhat-tutorial/.env*.local
+hardhat-tutorial/node_modules
+
+hardhat-tutorial/.env
+/hardhat-tutorial/node_modules
+/hardhat-tutorial/artifacts
+/hardhat-tutorial/cache
+
+
+/my-app/node_modules
+/my-app/.next
+/my-app/build
+/my-app/out
+/my-app/.env
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+
+# misc
+.DS_Store
+*.pem
+
+# typescript
+*.tsbuildinfo
