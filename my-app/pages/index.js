@@ -358,7 +358,7 @@ export default function Home() {
             Its an NFT collection for developers in Crypto.
           </div>
           <div className={styles.description}>
-            Made by Kaysar, Nurtileu and Dosymzhan. CS-2005
+            <b>Made by Kaysar, Nurtileu and Dosymzhan. CS-2005</b>
           </div>
           <div className={styles.description}>
             {tokenIdsMinted}/20 have been minted
